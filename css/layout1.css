@@ -1,0 +1,12 @@
+header { grid-area: h; }
+nav    { grid-area: n; }
+main   { grid-area: m; }
+footer { grid-area: f; }
+
+body {
+  display: grid;
+  grid: " h   h   h  " auto
+        " n   m   m  " auto
+        " n   f   f  " auto
+        / 1fr 2fr 2fr;
+}
