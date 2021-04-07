@@ -1,0 +1,61 @@
+  html {
+    background-color: #fffffa;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: #5b7553;
+    border: 1px solid black;
+    border-radius: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block;
+    text-align: center;
+  }
+
+  nav a:hover {
+    background-color: #2b3a67;
+    color: #fffffa;
+  }
+
+  main {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  img {
+    width: auto;
+    height: 17em;
+    float: left;
+    padding-right: 1em;
+  }
+
+  div img {
+    width: 15em;
+    height: auto;
+    float: left;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  footer {
+    font-family: 'Roboto', sans-serif;
+    height: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  footer p {
+    text-align: center;
+  }
