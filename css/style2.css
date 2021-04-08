@@ -8,21 +8,20 @@ h1 {
     font-size: 45px;
 }
 
-nav {
-    background-color: #5b7553;
-}
-
-nav a {
-    font-family: 'Roboto', sans-serif;
+a {
     text-decoration: none;
     color: black;
     background-color: #5b7553;
     border: 1px solid black;
-    border-radius: 4em;
-    padding-left: 1em;
-    padding-right: 1em;
-    display: block;
+    padding: 20px 32px 20px;
     text-align: center;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    width: 47%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 nav a:hover {
@@ -31,21 +30,31 @@ nav a:hover {
 }
 
 main {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 3em;
     padding-right: 3em;
 }
 
+h2 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+h3 {
+    font-family: 'Paytone One', sans-serif;
+}
+
 img {
     width: auto;
-    height: 15em;
+    height: 13em;
     float: left;
+    padding-right: 1em;
 }
 
 div img {
-    width: 15em;
-    height: auto;
-    float: left;
+    position: absolute;
+    object-position: center top;
+    left: 50%;
+    top: 50%;
 }
 
 ul {
@@ -53,7 +62,7 @@ ul {
 }
 
 footer {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 5em;
     padding-left: 3em;
     padding-right: 3em;
