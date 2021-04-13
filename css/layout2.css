@@ -1,7 +1,18 @@
-header { grid-area: h; }
-nav    { grid-area: n; }
-main   { grid-area: m; }
-footer { grid-area: f; }
+header {
+  grid-area: h;
+}
+
+nav {
+  grid-area: n;
+}
+
+main {
+  grid-area: m;
+}
+
+footer {
+  grid-area: f;
+}
 
 body {
   display: grid;
