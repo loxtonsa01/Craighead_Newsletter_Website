@@ -19,7 +19,7 @@ a {
 
 nav {
     font-family: 'Open Sans', sans-serif;
-    width: 47%;
+    width: 48%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -43,18 +43,18 @@ h3 {
     font-family: 'Paytone One', sans-serif;
 }
 
-img {
-    width: auto;
-    height: 13em;
-    float: left;
-    padding-right: 1em;
-}
-
-div img {
+div {
     position: absolute;
     object-position: center top;
-    left: 50%;
-    top: 50%;
+    left: 35%;
+    top: 25%;
+}
+
+img {
+    width: auto;
+    height: 15em;
+    float: left;
+    padding-right: 1em;
 }
 
 ul {
