@@ -16,9 +16,5 @@ footer {
 
 body {
   display: grid;
-  grid: " h   h   h  " auto
-        " n   n   n  " auto
-        " m   m   m  " auto
-        " f   f   f  " auto
-        / 1fr 1fr 1fr;
+  grid: " h   h   h  " auto " n   n   n  " auto " m   m   m  " auto " f   f   f  " auto / 1fr 1fr 1fr;
 }
