@@ -43,14 +43,6 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-div {
-    position: absolute;
-    object-position: center top;
-    left: 35%;
-    top: 25%;
-    color: #add7f6;
-}
-
 img {
     width: auto;
     height: 15em;
@@ -86,10 +78,15 @@ footer p {
         padding: 20px 32px 20px;
         text-align: center;
     }
-}
-
-@media screen and (max-width: 600px) {
     .div {
         display: none;
     }
+}
+
+.container img {
+    position: absolute;
+    left: 17%;
+    top: 25%;
+    width: auto;
+    height: auto;
 }
