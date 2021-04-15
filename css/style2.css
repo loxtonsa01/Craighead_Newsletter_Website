@@ -90,3 +90,13 @@ footer p {
     width: auto;
     height: auto;
 }
+
+.moneyhub img {
+    width: 88em;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.careernav nav a {
+    text-decoration: none;
+}
